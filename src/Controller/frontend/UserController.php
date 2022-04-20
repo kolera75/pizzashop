@@ -15,6 +15,7 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
+
 class UserController extends AbstractController
 {
     #[Route('/inscription', name: 'app_frontend_user_registration', methods: ['GET', 'POST'])]
